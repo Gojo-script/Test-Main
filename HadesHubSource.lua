@@ -11,8 +11,8 @@ end
 game.StarterGui:SetCore(
     "SendNotification",
     {
-        Title = "HadesGod",
-        Text = "Loading",
+        Title = "Gojo God",
+        Text = "Me sigua na rede vizinha: @Gojo._.script",
         Duration = 5
     })
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -2519,7 +2519,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.359138072, 0, -0.025062656, 0)
 TextLabel.Size = UDim2.new(0, 200, 0, 50)
 TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "discord.gg/H9q9RuKxqk"
+TextLabel.Text = "Esse script é "
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 19.000
 
@@ -2530,8 +2530,8 @@ loadSettings()
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "HadesGod [Free Premium 7 Days]",
-    SubTitle = " By ZkanixZ#0 • Hades_x112#0",
+    Title = "Gojo God | Free",
+    SubTitle = "By: @Gojo._.Script",
     TabWidth = 140,
     Size = UDim2.fromOffset(480, 320),
     Acrylic = false, 
@@ -2921,10 +2921,12 @@ local SelectFastAttackMode = (SelectFastAttackMode or "Fast Super Fast Attack")
 SelectedFastAttackMode = {"Normal Attack","Fast Attack","Super Fast Attack"}
 local function ChangeModeFastAttack(SelectFastAttackMode)
 	if SelectFastAttackMode == "Normal Attack" then
-		FireCooldown = 0.1
+		FireCooldown = 1
 	elseif SelectFastAttackMode == "Fast Attack" then
-		FireCooldown = 0.07
+		FireCooldown = 0.20
 	elseif SelectFastAttackMode == "Super Fast Attack" then
+		FireCooldown = 0.10
+	elseif SelectFastAttackMode == "Gojo attack🇧🇷🌪️" then
 		FireCooldown = 0
 	end
 end
